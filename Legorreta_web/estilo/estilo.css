@@ -1,0 +1,255 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+    
+    body{font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+    background-image:url(../imagenes/DORITOS.jpeg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    }
+    
+    header {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    }
+    
+    .logo{
+    margin: 0px;
+    }
+    
+    .logo img{width: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    }
+  
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #bcc400;
+      border-radius: 30px;
+    }
+
+    .hero {
+      display: flex;
+      flex: 1 1 300px;
+      max-width: 500px;
+      height: 350px;
+      border-radius: 30px;
+      background-image: url(../imagenes/PEPSICO_EMPLEADOS.jpg);
+      background-size: cover;
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero img {
+     width: 100%;
+     border-radius: 20px;
+     object-fit: cover;
+    }
+
+    .empleados {
+     position: relative;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .empleados li {
+     list-style: none;
+     font-weight: bold;
+     font-size: 24px;
+     background-color: #ADD8E699;
+     padding: 10px 20px;
+     border-radius: 10px;
+     text-align: center;
+     width: 100%;
+     max-width: 200px;
+     transform: translate(-8%, -10%);
+    }
+
+    .empleados a {
+     text-decoration: none;
+     color: black;
+     display: block;
+     text-align: center;
+    }
+
+    .hero2 {
+      display: flex;
+      flex: 1 1 300px;
+      max-width: 500px;
+      height: 350px;
+      border-radius: 30px;
+      background-image: url(../imagenes/MESSI_LAYS3.jpg);
+      background-size: cover;
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero2 img {
+     width: 100%;
+     border-radius: 20px;
+     object-fit: cover;
+    }
+
+    .productos {
+     position: relative;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .productos li {
+     list-style: none;
+     font-weight: bold;
+     font-size: 24px;
+     background-color: #ADD8E699;
+     padding: 10px 20px;
+     border-radius: 10px;
+     text-align: center;
+     width: 100%;
+     max-width: 200px;
+     transform: translate(-8%, -10%);
+    }
+
+    .productos a {
+     text-decoration: none;
+     color: black;
+     display: block;
+     text-align: center;
+    }
+
+    .hero3 {
+      display: flex;
+      flex: 1 1 300px;
+      max-width: 500px;
+      height: 350px;
+      border-radius: 30px;
+      background-image: url(../imagenes/LAYS_GONDOLA.jpg);
+      background-size: cover;
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero3 img {
+     width: 100%;
+     border-radius: 20px;
+     object-fit: cover;
+    }
+
+    .comercios {
+     position: relative;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .comercios li {
+     list-style: none;
+     font-weight: bold;
+     font-size: 24px;
+     background-color: #ADD8E699;
+     padding: 10px 20px;
+     border-radius: 10px;
+     text-align: center;
+     width: 80%;
+     max-width: 200px;
+     transform: translate(12%, -10%);
+    }
+
+    .comercios a {
+     text-decoration: none;
+     color: black;
+     display: block;
+     text-align: center;
+    }
+
+    nav{float:right;
+        margin-right:30px;
+    margin-top: 10px;}
+    
+    nav ul{display: flex;
+       gap:20px;}
+    
+    nav li{list-style: none;}
+    
+    a:link{color:white; text-decoration: none;}
+    a:visited{color:white; text-decoration: none;}
+    a:hover{color:grey; text-decoration: none;}
+    a:active{color:grey; text-decoration: none;}
+
+    main{
+        margin: 40px auto;
+        border: 1px solid rgb(0, 0, 0);
+        max-width: 1280px;
+        background-color: rgb(57, 118, 16);
+        box-sizing: border-box;
+    }
+    
+    section{
+        padding:30px;
+        float: left;
+        border: 1px solid rgb(0, 0, 0);
+        width: 75%;
+    }
+    
+    .clear{clear: both;}
+    
+    aside{
+        float: right;
+        border: 1px solid rgb(0, 0, 0);
+        padding: 10px;
+        width:25%
+    }
+
+    aside p {
+      color: white;
+    }
+
+    aside a {
+      color: rgb(166, 12, 12);
+    }
+
+    aside li {
+      color: white;
+    }
+
+    main h1 {
+      color:white;
+    }
+
+    main p {
+      color: white;
+    }
+    
+    footer{
+        background-color: rgb(0, 0, 0);
+        text-align: right;
+        justify-content: right;
+    }
+    
+    .texto-footer{font-size: 12px;
+    margin: 0px auto;
+    color:rgb(120, 120, 120);
+    padding-top:40px;
+    height:150px;
+    text-align: right;}
